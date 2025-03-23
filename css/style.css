@@ -1,1 +1,64 @@
 /*ini CSS External*/
+
+.main-header > h1 {   
+    margin: 0px;
+    background-color: rgb(255, 234, 0);
+    padding: 24px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+main {
+    background-color: rgb(255, 255, 225);
+    padding: 16px;
+    text-align: center;
+}
+
+.nav-fitur {
+   display: flex;
+   flex-direction: column;
+}
+
+.nav-fitur > a {
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 20%;
+    align-self: center;
+    margin: 2px;
+}
+.nav-fitur-active {
+    background-color: rgb(34, 169, 0);
+}
+.nav-fitur-non-active {
+    background-color: rgb(34, 169, 0);
+}
+
+.section-header {
+    background-color: rgb(216, 155, 0);
+    padding: 16px;
+}
+
+.section-image {
+    background-image: url(../assets/Persegi.jpg);
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.calculate-content {
+    border: 1px solid;
+    height: 100px;
+}
+
+section{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+footer {
+    text-align: center;
+}

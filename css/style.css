@@ -1,64 +1,100 @@
-/*ini CSS External*/
-
-.main-header > h1 {   
-    margin: 0px;
-    background-color: rgb(255, 234, 0);
-    padding: 24px;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-main {
-    background-color: rgb(255, 255, 225);
-    padding: 16px;
-    text-align: center;
+.main-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
 }
 
 .nav-fitur {
-   display: flex;
-   flex-direction: column;
+    margin: 20px 0;
 }
 
-.nav-fitur > a {
+.nav-fitur a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
     color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    width: 20%;
-    align-self: center;
-    margin: 2px;
-}
-.nav-fitur-active {
-    background-color: rgb(34, 169, 0);
-}
-.nav-fitur-non-active {
-    background-color: rgb(34, 169, 0);
+    border-radius: 5px;
 }
 
-.section-header {
-    background-color: rgb(216, 155, 0);
-    padding: 16px;
+.nav-fitur a.nav-fitur-active {
+    background-color: #0056b3;
 }
 
-.section-image {
-    background-image: url(../assets/Persegi.jpg);
-    width: 200px;
-    height: 100px;
-    justify-self: center;
-    background-size: cover;
-    background-position: center;
+.nav-fitur {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    position: relative; 
+    z-index: 10;
+}
 
+
+.image-container {
+    text-align: center; 
+    margin-top: 4px; 
+}
+
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .calculate-content {
-    border: 1px solid;
-    height: 100px;
+    margin-top: 10px;
 }
 
-section{
-    margin-top: 16px;
-    margin-bottom: 16px;
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+.image-container {
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.image-container img {
+    max-width: auto;
+    height: auto;
+    display: block;
+}
+
+
 
 footer {
-    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
 }
